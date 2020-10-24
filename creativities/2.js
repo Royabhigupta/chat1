@@ -133,7 +133,7 @@ $sendLocationButton.addEventListener('click', () => {
     return alert('Geolocation is not supported by your browser.')
   }
 
-  $messageFormButton.setAttribute('disabled', 'disabled')
+  $sendLocationButton.setAttribute('disabled', 'disabled')
 
   navigator.geolocation.getCurrentPosition((position) => {
 
